@@ -595,7 +595,7 @@ header{
         border-radius: 90px;
       }
 }
-@media screen and (max-width:290px){
+@media screen and (max-width:300px){
     .about-row{
         flex-wrap: wrap;
         display: flex;
