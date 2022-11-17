@@ -355,7 +355,7 @@ font-size: 20px;
     margin-inline: 100px;
     display: flex;
 }  
-@media screen and (max-width:310px){
+@media screen and (max-width:768px){
     .sidebarMenu {  
         height:50vh;
         left: 0;
@@ -595,7 +595,7 @@ header{
         border-radius: 90px;
       }
 }
-@media screen and (max-width:260px){
+@media screen and (max-width:400px){
     .about-row{
         flex-wrap: wrap;
         display: flex;
@@ -656,3 +656,65 @@ header{
         padding-top: 20px;
 }
 }
+@media screen and (max-width:300px){
+    .about-row{
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background:rgba(37, 37, 180, 0.473) ;
+    margin-top: 30px;
+    
+    }
+    .about-left-col{    
+        flex-basis: 50%;
+        
+        font-style: initial;
+        font-size: 5px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .about-right-col img{
+    width: 100%;
+    padding: 20px;
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+    } 
+    .text{
+        color: white;
+        margin-left: 40px;
+        padding-left: 7%;
+        margin-bottom: 30%;
+        
+    }
+    .text h1{
+        font-size: 26px;
+    
+    }
+    .text p{
+        font-size: 11px;
+    }
+    .c-btn{
+        padding: 5px;
+        font-size: 10px;
+        text-align: justify;
+        margin-left: 30px;
+    }
+    header{
+        width: 100%;
+        height: 100vh;
+        background: url(https://user-images.githubusercontent.com/118258056/202480286-47dcf360-c48e-43f0-96d6-4e7c0e6635cf.jpg);
+        background-size:cover;
+        background-position:center ;
+    
+     background-repeat:repeat;    
+     background-attachment: fixed;
+    }
+    .logo{
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+        padding-left: 100px;
+        padding-top: 20px;
+}
+}
+
